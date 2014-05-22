@@ -1,9 +1,10 @@
 May 21, 2014
-------------
+=============
 Simple Python game.
 
 Run on the command line:
   $ python3 game.py
 
+On 'Overlap' branch, ball is moved with left click
 
 -KON
