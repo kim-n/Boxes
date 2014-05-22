@@ -8,7 +8,7 @@ def ballPosition():
     return[(x1 + x2)/2, (y1 + y2)/2]
 
 def randomSpeed():
-    return choice([10, -10])
+    return choice(list(range(20)))-10
     
 def outBounds(coord):
     return 0 > coord or coord > gameSize-10
